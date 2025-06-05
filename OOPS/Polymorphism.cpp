@@ -5,12 +5,18 @@ using namespace std;
 // Overriding
 class Animal{
     public:
-    virtual void speak(){
+    Animal(){
+        cout<<"Animal Constructor"<<endl;
+    }
+    void speak(){
         cout<<"Speaking"<<endl;
     }
 };
 class Dog:public Animal{
     public:
+    Dog(){
+        cout<<"Dog Constructor"<<endl;
+    }
     // override
     void speak(){
         cout<<"Bark"<<endl;
@@ -28,12 +34,14 @@ int main(){
     // a->speak();
 
     // Upcasting
-    Animal* a= new Dog();
-    a->speak();
+    // Animal* a= new Dog();
+    // a->speak();
 
-    // DownCast
+    // // DownCast
     Dog* b = (Dog* )new Animal();
     b->speak();
+
+
     // Static allocation
     // Dog d;
     // d.speak();
