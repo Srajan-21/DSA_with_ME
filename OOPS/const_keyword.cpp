@@ -1,6 +1,25 @@
 #include <iostream>
 using namespace std;
 
+class abc{
+    int x;
+    int *y;
+    int z;
+
+    public:
+    // old style
+    // abc(int _x,int _y,int -Z=0)
+    // {
+    //     x=_x;
+    //     y=new int(_y);
+    //     z=_z;
+    // }
+
+    // initialisation set
+    abc(int _x,int _y,int _z=0):x(_x),y(new int (_y)),z(_z){}
+    
+};
+
 int main()
 {
     // const int x = 5; //x is constant
