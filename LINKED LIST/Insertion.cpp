@@ -41,6 +41,10 @@ int main(){
     insert(head,30);
     insert(head,20);    
     insert(head,20);
+    insert(head,20);
+    insert(head,30);
+    insert(head,20);    
+    insert(head,20);
 
     print(head);
     return 0;
