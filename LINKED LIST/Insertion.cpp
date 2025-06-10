@@ -28,7 +28,7 @@ void print(Node* &head)
     }
 }
 
-void insert(Node* &head,int data)
+void insertAtHead(Node* &head,int data)
 {
     Node* newNode = new Node(data);
     newNode->next = head;
@@ -37,14 +37,14 @@ void insert(Node* &head,int data)
 
 int main(){
     Node* head = new Node(10);
-    insert(head,20);
-    insert(head,30);
-    insert(head,20);    
-    insert(head,20);
-    insert(head,20);
-    insert(head,30);
-    insert(head,20);    
-    insert(head,20);
+    insertAtHead(head,20);
+    insertAtHead(head,0);
+    insertAtHead(head,920);    
+    insertAtHead(head,200);
+    insertAtHead(head,208);
+    insertAtHead(head,30);
+    insertAtHead(head,205);    
+    insertAtHead(head,206);
 
     print(head);
     return 0;
