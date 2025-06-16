@@ -30,13 +30,17 @@ void print(Node* &head)
 
 void insertAtHead(Node* &head,int data)
 {
+    // nyi node banegi jo insert krni h
     Node* newNode = new Node(data);
+    // nyi node ka jo next oga vo current head ko point krega
     newNode->next = head;
+    // head ko update krke nyi node pe laa denge
     head = newNode;
 }
 
 int main(){
     Node* head = new Node(10);
+    // Node* head = NULL; //agar head pe insert krte jana h tb hi ye use krenge
     insertAtHead(head,20);
     insertAtHead(head,0);
     insertAtHead(head,920);    
