@@ -28,28 +28,55 @@ void print(Node* &head)
     }
 }
 
-void insertAtHead(Node* &head,int data)
+void insertAtHead(Node* &head , Node* & tail , int data)
 {
-    // nyi node banegi jo insert krni h
+    // if(head == NULL)
+    // {
+    //     Node* newNode = new Node(data);
+    //     head = newNode;
+    //     tail = newNode;
+    // }else{
+    //     Node* newNode = new Node(data);
+    //     newNode->next = head;
+    //     head = newNode;
+    // }
+
+    // return use krenge to - Best Practice 
+    if(head == NULL)
+    {
+        Node* newNode = new Node(data);
+        head = newNode;
+        tail = newNode;
+        return;
+    }
     Node* newNode = new Node(data);
-    // nyi node ka jo next oga vo current head ko point krega
     newNode->next = head;
-    // head ko update krke nyi node pe laa denge
     head = newNode;
+
+    // not good practice
+    // // nyi node banegi jo insert krni h
+    // Node* newNode = new Node(data);
+    // // nyi node ka jo next oga vo current head ko point krega
+    // if(head == NULL)
+    // {
+    //     tail = newNode; //tail pointer update krne k liye ye if condition likhenge 
+    // }
+    // newNode->next = head;
+    // // head ko update krke nyi node pe laa denge
+    // head = newNode;
 }
 
-int main(){
-    Node* head = new Node(10);
-    // Node* head = NULL; //agar head pe insert krte jana h tb hi ye use krenge
-    insertAtHead(head,20);
-    insertAtHead(head,0);
-    insertAtHead(head,920);    
-    insertAtHead(head,200);
-    insertAtHead(head,208);
-    insertAtHead(head,30);
-    insertAtHead(head,205);    
-    insertAtHead(head,206);
 
+
+int main(){
+    // Node* head = new Node(10);
+    //agar head pe insert krte jana h tb hi ye use krenge
+    Node* head = NULL;
+    Node* tail = NULL;
+
+    insertAtHead(head,tail,1);
+    insertAtHead(head,tail,3);
+    
     print(head);
     return 0;
 }
