@@ -18,7 +18,7 @@ class Node{
     }
 };
 
-void print(Node* &head)
+void print(Node* &head , Node* &tail)
 {
     Node* temp = head;
     while (temp!=NULL)
@@ -41,6 +41,7 @@ void insertAtHead(Node* &head , Node* & tail , int data)
     //     head = newNode;
     // }
 
+
     // return use krenge to - Best Practice 
     if(head == NULL)
     {
@@ -52,6 +53,7 @@ void insertAtHead(Node* &head , Node* & tail , int data)
     Node* newNode = new Node(data);
     newNode->next = head;
     head = newNode;
+
 
     // not good practice
     // // nyi node banegi jo insert krni h
@@ -66,7 +68,49 @@ void insertAtHead(Node* &head , Node* & tail , int data)
     // head = newNode;
 }
 
+void insertAtTail( Node* &head , Node* &tail , int data)
+{
+    // Best Practice
+    if(tail == NULL)
+    {
+        Node* newNode = new Node(data);
+        head = newNode;
+        tail = newNode;
+        return;  
+    }
+    Node* newNode = new Node(data);
+    tail->next = newNode;
+    tail = newNode;
 
+    
+    // Using Conditional Statement
+    // if(tail == NULL)
+    // {
+    //     Node* newNode = new Node(data);
+    //     head = newNode;
+    //     tail = newNode;
+    // }else{
+    //     Node* newNode = new Node(data);
+    //     tail->next = newNode;
+    //     tail = newNode; 
+    // }
+
+
+    // not good practice
+    // // nyi node banegi
+    // Node* newNode = new Node(data);
+    // // agar tail null hua to abhi tk LL empty h nyi node jo banegi to vahi hi phli node hogi to nyi node pe hi head aur tail hoga
+    // if(tail == NULL) // null ka next nhi ho skta     
+    // {
+    //     head = newNode;
+    //     tail = newNode;
+    // }
+    // // agar tail null nahi hua matlaba phle se LL me elements h to tail k next me add kr skte h
+    // else{
+    //     tail->next = newNode;
+    // }
+    // tail = newNode;
+}
 
 int main(){
     // Node* head = new Node(10);
@@ -74,9 +118,14 @@ int main(){
     Node* head = NULL;
     Node* tail = NULL;
 
-    insertAtHead(head,tail,1);
-    insertAtHead(head,tail,3);
+    // insertAtHead(head,tail,1);
+    insertAtTail(head,tail,2);
+    insertAtTail(head,tail,12);
+    insertAtTail(head,tail,21);
+    insertAtTail(head,tail,24);
+    // insertAtHead(head,tail,3);
     
-    print(head);
+    // print(head);
+    print(head , tail);
     return 0;
 }
