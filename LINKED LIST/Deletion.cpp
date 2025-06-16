@@ -18,7 +18,11 @@ class Node{
     }
 
     ~Node(){
-
+        if (this->next != NULL) {
+            delete next;
+            this->next = NULL;
+        }
+        cout << "Memory freed for node with data " << this->data << endl;
     }
 };
 
@@ -31,7 +35,18 @@ void print(Node* &head){
     }
 }
 
-void deleteAtHead(Node* &head)
+int length(Node* head)
+{
+    int len = 0;
+    while(head!=NULL)
+    {
+        head=head->next;
+        len++;
+    }
+    return len;
+}
+
+void deletionAtHead(Node* &head)
 {
     if(head == NULL)
     {
@@ -42,6 +57,24 @@ void deleteAtHead(Node* &head)
     Node* temp = head;
     head = head->next;
     temp->next = NULL;
+    delete temp;
+}
+
+void deletionAtTail(Node* & head , Node* tail)
+{
+    int len = length(head);
+
+    int i = 1;
+    Node* prev = head;
+    while(i<len-1)
+    {
+        prev = prev->next;
+        i++;
+    }
+
+    prev->next = NULL;
+    Node* temp = tail;
+    tail = prev;
     delete temp;
 }
 
@@ -61,8 +94,16 @@ int main(){
     print(first);
 
     cout<<endl;
+    cout<<endl;
 
-    deleteAtHead(first);
+    deletionAtHead(first);
+    cout<<"After Deletion"<<endl;
+    print(first);
+
+    cout<<endl;
+    cout<<endl;
+
+    deletionAtTail(first , fifth);
     cout<<"After Deletion"<<endl;
     print(first);
 
