@@ -20,6 +20,8 @@ class Node{
 
 void print(Node* &head , Node* &tail)
 {
+    // TC - O(n)
+    // SC -O(1)
     Node* temp = head;
     while (temp!=NULL)
     {
@@ -30,6 +32,8 @@ void print(Node* &head , Node* &tail)
 
 int findLength(Node* &head)
 {
+    // TC - O(n)
+    // SC -O(1)
     int len = 0;
     Node* temp = head;
     while (temp!=NULL)

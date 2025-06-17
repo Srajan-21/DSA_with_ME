@@ -34,9 +34,10 @@ void print(Node* &head){
 int length(Node* head)
 {
     int len = 0;
-    while(head!=NULL)
+    Node* temp = head;
+    while(temp != NULL)
     {
-        head=head->next;
+        temp=temp->next;
         len++;
     }
     return len;
