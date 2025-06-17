@@ -18,6 +18,10 @@ class Node{
         this->prev = NULL;
         this->next = NULL;
     }
+
+    ~Node(){
+        cout<<"Node with Value : "<<this->data<< " Deleted"<<endl;
+    }
 };
 
 void print(Node* &head){
@@ -83,7 +87,7 @@ void deleteAtTail(Node* &head , Node* &tail){
         tail = NULL;
         return;
     }
-    
+
      Node* temp = tail;
      tail = tail->prev;
      temp->prev = NULL;
