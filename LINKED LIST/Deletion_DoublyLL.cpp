@@ -53,6 +53,19 @@ void insertAtTail(Node* &head , Node* &tail , int data){
 }
 
 void deleteAtHead(Node* &head , Node* &tail){
+    if(head == NULL){
+        cout<<"Already Empty"<<endl;
+        return;
+    }
+
+    if(head == tail){
+        Node* temp = head;
+        head = NULL;
+        tail = NULL;
+        delete temp;
+        return;
+    }
+
     Node* temp = head;
     head = head->next;
     head->prev = NULL;
@@ -61,11 +74,73 @@ void deleteAtHead(Node* &head , Node* &tail){
 }
 
 void deleteAtTail(Node* &head , Node* &tail){
+    if (tail == NULL) return;
+
+    // Single node
+    if (head == tail) {
+        delete tail;
+        head = NULL;
+        tail = NULL;
+        return;
+    }
+    
      Node* temp = tail;
      tail = tail->prev;
      temp->prev = NULL;
      tail->next = NULL;
      delete temp;
+}
+
+void deleteAtPosition(Node* &head , Node* &tail , int position){
+    if(head == NULL){
+        cout<<"Linked List is empty"<<endl;
+        return;
+    }
+
+    if(head->next == NULL){
+        // single nod in linked list
+        Node* temp = head;
+        head = NULL;
+        tail = NULL;
+        delete temp;
+        return;
+    }
+
+    int len = getLength(head);
+    
+    if(position > len || position <= 0)
+    {
+        cout<<"Enter a valid Position"<<endl;
+        return;
+    }
+
+    // Delete at Head
+    if(position == 1){
+        deleteAtHead(head , tail);
+        return;
+    }
+
+    // Delete at Tail
+    if(position == len){
+        deleteAtTail(head , tail);
+        return;
+    }
+
+    int i=1;
+    Node* left = head;
+    while(i<position-1)
+    {
+        left=left->next;
+        i++;
+    } 
+    Node* curr = left->next;
+    Node* right = curr->next;
+
+    left->next = right;
+    right->prev = left;
+    curr->next = NULL;
+    curr->prev = NULL;
+    delete curr;
 }
 
 int main(){
@@ -119,5 +194,38 @@ int main(){
     cout<<endl;
     cout<<"Head:"<<head->data<<endl;
     cout<<"Tail:"<<tail->data<<endl;
+
+    cout<<endl;
+    deleteAtPosition(head , tail , 3);
+    cout<<"Length:"<<getLength(head)<<endl;
+    print(head);
+    cout<<endl;
+    cout<<"Head:"<<head->data<<endl;
+    cout<<"Tail:"<<tail->data<<endl;
+
+    cout<<endl;
+    deleteAtPosition(head , tail , 4);
+    cout<<"Length:"<<getLength(head)<<endl;
+    print(head);
+    cout<<endl;
+    cout<<"Head:"<<head->data<<endl;
+    cout<<"Tail:"<<tail->data<<endl;
+
+    cout<<endl;
+    deleteAtPosition(head , tail , 4);
+    cout<<"Length:"<<getLength(head)<<endl;
+    print(head);
+    cout<<endl;
+    cout<<"Head:"<<head->data<<endl;
+    cout<<"Tail:"<<tail->data<<endl;
+
+    cout<<endl;
+    deleteAtPosition(head , tail , 0);
+    cout<<"Length:"<<getLength(head)<<endl;
+    print(head);
+    cout<<endl;
+    cout<<"Head:"<<head->data<<endl;
+    cout<<"Tail:"<<tail->data<<endl;
+
 
 }
