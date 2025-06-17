@@ -60,6 +60,14 @@ void deleteAtHead(Node* &head , Node* &tail){
     delete temp;
 }
 
+void deleteAtTail(Node* &head , Node* &tail){
+     Node* temp = tail;
+     tail = tail->prev;
+     temp->prev = NULL;
+     tail->next = NULL;
+     delete temp;
+}
+
 int main(){
     Node* head = NULL;
     Node* tail = NULL;
@@ -88,7 +96,28 @@ int main(){
     cout<<"Head:"<<head->data<<endl;
     cout<<"Tail:"<<tail->data<<endl;
 
+    cout<<endl;
+    deleteAtTail(head , tail);
+    cout<<"Length:"<<getLength(head)<<endl;
+    print(head);
+    cout<<endl;
+    cout<<"Head:"<<head->data<<endl;
+    cout<<"Tail:"<<tail->data<<endl;
 
+    cout<<endl;
+    deleteAtHead(head , tail);
+    cout<<"Length:"<<getLength(head)<<endl;
+    print(head);
+    cout<<endl;
+    cout<<"Head:"<<head->data<<endl;
+    cout<<"Tail:"<<tail->data<<endl;
 
+    cout<<endl;
+    deleteAtTail(head , tail);
+    cout<<"Length:"<<getLength(head)<<endl;
+    print(head);
+    cout<<endl;
+    cout<<"Head:"<<head->data<<endl;
+    cout<<"Tail:"<<tail->data<<endl;
 
 }
