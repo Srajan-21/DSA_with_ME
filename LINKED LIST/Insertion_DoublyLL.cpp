@@ -74,8 +74,8 @@ void insertAtPosition(Node* &head , Node* &tail , int data , int position){
 
     if(head == NULL){
         Node* newNode = new Node(data);
-        head = NULL;
-        tail = NULL;
+        head = newNode;
+        tail = newNode;
         return;
     }
 
@@ -84,16 +84,8 @@ void insertAtPosition(Node* &head , Node* &tail , int data , int position){
         return;
     }
 
-    if(position >= len){
+    if(position > len){
         insertAtTail(head , tail , data);
-        return;
-    }
-
-    if(head == NULL)
-    {
-        Node* newNode = new Node(data);
-        head = newNode;
-        tail = newNode;
         return;
     }
 
