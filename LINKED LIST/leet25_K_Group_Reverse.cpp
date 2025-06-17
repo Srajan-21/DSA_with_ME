@@ -61,59 +61,36 @@ void insertAtTail( Node* &head , Node* &tail , int data)
     tail = newNode;
 }
 
-Node* getMiddle(Node* head){
-    // TC - O(n/2)
+Node* reverseKNodes(Node* &head , int k){
     if(head == NULL){
-        cout<<"Linked List is empty"<<endl;
-        return head;
+        // Empty Linked List
+        return NULL;
     }
 
-    if(head->next == NULL){
-        // Only one node in LL
-        return head;
-    }
-
-    Node* slow = head;
-    Node* fast = head;
-
-    while(slow!=NULL && fast!=NULL){
-        fast=fast->next;
-        if(fast!=NULL)
-        {
-            fast=fast->next;
-            slow=slow->next;
-        }
-    }
-    return slow;
-}
-
-Node* Middle(Node* head)
-{
     int len = findLength(head);
-    Node* temp = head;
-    int n = len / 2;
-    if(len % 2 == 0)
+    if(k > len)
     {
-        int i=1;
-        while(i!=n)
-        {
-            temp = temp->next;
-            i++;
-        }
-
-        // return temp;
-        return temp->next;
+        return head;
     }
-    else{
-        int i=1;
-        while(i!=n)
-        {
-            temp = temp->next;
-            i++;
-        }
 
-        return temp -> next;
+    Node* prev = NULL;
+    Node* curr = head;
+    Node* forward = curr->next;
+    int count = 0;
+
+    while(count < k){
+        forward = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = forward;
+        count++;
     }
+
+    if(forward != NULL){
+        head->next = reverseKNodes(forward , k);
+    }
+
+    return prev;
 }
 
 
@@ -134,8 +111,7 @@ int main(){
     print(head);
     cout<<endl;
 
-    int middle = Middle(head) -> data;
-    cout<<"Middle:"<<middle;
-
+    head = reverseKNodes(head , 5);
+    print(head);
     return 0;
 }
