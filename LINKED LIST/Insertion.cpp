@@ -52,7 +52,7 @@ void insertAtHead(Node* &head , Node* & tail , int data)
     // {
     //     Node* newNode = new Node(data);
     //     head = newNode;
-    //     tail = newNode;
+    //     tail = ne bwNode;
     // }else{
     //     Node* newNode = new Node(data);
     //     newNode->next = head;
