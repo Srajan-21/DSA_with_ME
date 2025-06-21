@@ -46,6 +46,7 @@ int getLength(Node* &head)
     return len;
 }
 
+
 int main(){
     Node* first = new Node(3);
     Node* second = new Node(2);

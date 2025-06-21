@@ -77,9 +77,9 @@ void deletionAtTail(Node* &head , Node* &tail)
         prev = prev->next;
         i++;
     }
-
-    prev->next = NULL;
+    
     Node* temp = tail;
+    prev->next = NULL;
     tail = prev;
     delete temp;
 }

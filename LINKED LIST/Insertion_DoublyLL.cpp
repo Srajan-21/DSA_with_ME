@@ -99,9 +99,9 @@ void insertAtPosition(Node* &head , Node* &tail , int data , int position){
 
     Node* newNode = new Node(data);
     prevNode->next = newNode;
-    newNode->prev = prevNode;
-    currNode->prev = newNode;
     newNode->next = currNode;
+    currNode->prev = newNode;
+    newNode->prev = prevNode;
 }
 
 int main(){
@@ -165,7 +165,7 @@ int main(){
     cout<<"Tail:"<<tail->data<<endl;
 
     cout<<endl;
-    insertAtPosition(head , tail , 101 , 10);
+    insertAtPosition(head , tail , 301 , 5);
     print(head);
     cout<<endl;
     cout<<"Head:"<<head->data<<endl;

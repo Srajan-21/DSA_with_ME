@@ -155,7 +155,7 @@ void insertAtPosition(Node* &head , Node* &tail , int data , int position)
     // Find Position of prev and curr pointer
     int i = 1;
     Node* prev = head;
-    while(i<position)
+    while(i<position-1)
     {
         prev = prev->next;
         i++;
@@ -199,6 +199,10 @@ int main(){
     cout<<endl;
     cout<<"HEAD:"<<head->data<<endl;
     cout<<"TAIL:"<<tail->data<<endl;
+
+    insertAtPosition(head,tail,101,5);
+    print(head,tail);
+
 
     return 0;
 }
