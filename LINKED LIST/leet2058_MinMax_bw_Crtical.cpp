@@ -98,5 +98,4 @@ int main(){
    cout<<"min:"<<ans[0]<<endl;
    cout<<"max:"<<ans[1]<<endl;
    return 0 ;
-
 }
