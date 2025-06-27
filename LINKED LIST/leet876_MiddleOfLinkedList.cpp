@@ -74,7 +74,7 @@ Node* getMiddle(Node* head){
     }
 
     Node* slow = head;
-    Node* fast = head;
+    Node* fast = head->next;
 
     while(slow!=NULL && fast!=NULL){
         fast=fast->next;
@@ -92,25 +92,32 @@ Node* Middle(Node* head)
     int len = findLength(head);
     Node* temp = head;
     int n = len / 2;
-    if(len % 2 == 0)
-    {
-        int i=1;
+    int i=1;
         while(i!=n)
         {
             temp = temp->next;
             i++;
         }
 
-        // return temp;
-        return temp->next;
+    if(len % 2 == 0)
+    {
+        // int i=1;
+        // while(i!=n)
+        // {
+        //     temp = temp->next;
+        //     i++;
+        // }
+
+        return temp;
+        // return temp->next;
     }
     else{
-        int i=1;
-        while(i!=n)
-        {
-            temp = temp->next;
-            i++;
-        }
+        // int i=1;
+        // while(i!=n)
+        // {
+        //     temp = temp->next;
+        //     i++;
+        // }
 
         return temp -> next;
     }
@@ -129,12 +136,12 @@ int main(){
     insertAtTail(head , tail , 26);
     insertAtTail(head , tail , 64);
     insertAtTail(head , tail , 32);
-    insertAtTail(head , tail , 101);
+    // insertAtTail(head , tail , 101);
 
     print(head);
     cout<<endl;
 
-    int middle = Middle(head) -> data;
+    int middle = getMiddle(head) -> data;
     cout<<"Middle:"<<middle;
 
     return 0;

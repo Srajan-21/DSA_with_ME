@@ -21,10 +21,10 @@ Node* reverse(Node* head)
 {
     Node* prev = NULL;
     Node* curr = head;
-    Node* fwd = curr->next;
+    // Node* fwd = curr->next;
     while(curr != NULL)
     {
-        fwd = curr->next;
+        Node* fwd = curr->next;
         curr->next = prev;
         prev = curr;
         curr = fwd;

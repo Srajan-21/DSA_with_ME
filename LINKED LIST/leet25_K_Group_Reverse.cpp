@@ -101,18 +101,18 @@ int main(){
     Node* tail = NULL;
 
     insertAtTail(head , tail , 1);
-    insertAtTail(head , tail , 41);
-    insertAtTail(head , tail , 12);
-    insertAtTail(head , tail , 13);
-    insertAtTail(head , tail , 26);
-    insertAtTail(head , tail , 64);
-    insertAtTail(head , tail , 32);
-    insertAtTail(head , tail , 101);
+    insertAtTail(head , tail , 2);
+    insertAtTail(head , tail , 3);
+    insertAtTail(head , tail , 4);
+    insertAtTail(head , tail , 5);
+    insertAtTail(head , tail , 6);
+    insertAtTail(head , tail , 7);
+    insertAtTail(head , tail , 8);
 
     print(head);
     cout<<endl;
 
-    head = reverseKNodes(head , 5);
+    head = reverseKNodes(head , 3);
     print(head);
     return 0;
 }
