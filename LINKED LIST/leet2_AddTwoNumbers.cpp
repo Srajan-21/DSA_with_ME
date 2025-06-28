@@ -82,7 +82,7 @@ Node* add(Node* head1 , Node* head2){
         Node* newNode = new Node(digit);
         ansTail->next = newNode;
         ansTail = newNode;
-        head1 = head1->next;
+        head1 = head1->next; 
     }
 
     while(head2 != NULL){
