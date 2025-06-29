@@ -40,15 +40,15 @@ int length(Node* head)
 }
 
 Node* merge(Node* left , Node* right){
-    if(left == 0)
+    if(left == NULL)
         return right;
-    if(right == 0)
+    if(right == NULL)
         return right;
 
     Node* ans = new Node(-1);
     Node* temp = ans;
 
-    while(left && right){
+    while(left!=NULL && right!=NULL){
         if(left->data <= right->data){
             temp->next = left;
             temp = left;
@@ -61,12 +61,12 @@ Node* merge(Node* left , Node* right){
         }
     }
 
-    if(left){
+    if(left!=NULL){
         temp->next = left;
         // temp = left;
         // left = left->next;
     }
-    if(right){
+    if(right!=NULL){
         temp->next = right;
         // temp = right;
         // right = rigt->next;

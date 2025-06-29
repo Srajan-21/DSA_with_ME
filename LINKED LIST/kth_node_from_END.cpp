@@ -45,7 +45,7 @@ int length(Node* head)
 
 void kth_Node_Recursion(Node* head , int &pos , int &ans)
 {
-    if(head == 0) 
+    if(head == NULL) 
         return;
 
     kth_Node_Recursion(head->next , pos , ans);
@@ -96,9 +96,9 @@ int main(){
 
     print(head);
     cout<<endl;
-    cout<<getNode(head , 7);
-    // Node* temp = kth_Node_Length(head , 4);
-    // cout<<temp->data;
+    // cout<<getNode(head , 7);
+    Node* temp = kth_Node_Length(head , 7);
+    cout<<temp->data;
     // print(head);
     return 0;
 }

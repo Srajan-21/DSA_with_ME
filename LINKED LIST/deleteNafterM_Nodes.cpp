@@ -28,7 +28,7 @@ void print(Node* &head){
 }
 
 void deleteLink(Node* head , int M , int N){
-    if(!head) return;
+    if(head == NULL) return;
     Node* it = head;
 
     for(int i=0 ; i<M-1 ; i++){

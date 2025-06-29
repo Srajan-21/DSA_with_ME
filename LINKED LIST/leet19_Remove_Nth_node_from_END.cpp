@@ -93,7 +93,7 @@ int main(){
     // cout<<temp->data;
     // print(head);
 
-    remove_kth_Node_from_END(head , 8);
+    remove_kth_Node_from_END(head , 5);
     print(head);
     return 0;
 }

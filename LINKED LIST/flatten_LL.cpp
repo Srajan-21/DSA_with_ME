@@ -31,7 +31,7 @@ void print(Node* &head){
 }
 
 Node* merge(Node* a , Node* b){
-    if(!a) return b;
+    if(a==NULL) return b;
     if(!b) return a;
 
     Node* ans = 0;

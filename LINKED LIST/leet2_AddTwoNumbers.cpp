@@ -109,9 +109,9 @@ Node* add(Node* head1 , Node* head2){
 }
 
 int main(){
-    Node* head1 = new Node(2);
+    Node* head1   = new Node(2);
     Node* second1 = new Node(4);
-    Node* third1 = new Node(9);
+    Node* third1  = new Node(9);
 
     head1->next = second1;
     second1->next = third1;

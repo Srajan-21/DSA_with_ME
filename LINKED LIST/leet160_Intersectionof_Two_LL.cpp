@@ -52,10 +52,10 @@ Node* Intersection_node(Node* head1 , Node*head2){
         B=B->next;
     }
 
-    if(A->next == 0 && B->next == 0 && A != B)
-        return 0;
+    if(A->next == NULL && B->next == NULL && A != B)
+        return NULL;
 
-    if(A->next == 0){
+    if(A->next == NULL){
         //B LL is bigger or equal
         //find how much bigger
         int bLen = 0;
