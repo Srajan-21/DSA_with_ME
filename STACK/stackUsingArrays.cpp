@@ -60,9 +60,21 @@ int main(){
     Stack s(10);
 
     cout<<s.isEmpty()<<endl;
+
     s.push(10);
+    s.push(10);
+    s.push(10);
+    s.push(10);
+    s.push(10);
+    s.push(10);
+    s.push(10);
+    s.push(10);
+    s.push(10);
+
     cout<<s.peek()<<endl;
     cout<<s.isEmpty()<<endl;
-    s.push(20);
+    s.push(20);    
+    s.push(20);    
+    cout<<s.peek()<<endl;
     cout<<s.getSize()<<endl;
 }

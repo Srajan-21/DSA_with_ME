@@ -13,7 +13,7 @@ class Stack{
         int top2;
 
         Stack(int size){
-            arr = new int[size];
+            arr = new int[size]();
             this->size = size;
             top1 = -1; 
             top2 = size;

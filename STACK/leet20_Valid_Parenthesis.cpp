@@ -6,7 +6,7 @@ using namespace std;
 bool isValid(string s){
     stack<char> st;
 
-    for(int i = 0 ; i < s.length() ; i++){
+    for(int i =  0 ; i < s.length() ; i++){
         char ch = s[i];
 
         // Opening Brackets
@@ -28,7 +28,7 @@ bool isValid(string s){
             }
             else{
                 return false;
-            }
+            }   
         }
     }
     if(st.empty())
