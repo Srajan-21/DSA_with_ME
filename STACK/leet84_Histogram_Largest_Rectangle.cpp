@@ -48,7 +48,6 @@ int getArea(vector<int> &height){
     
     int maxArea = INT_MIN;
     int size = height.size();
-    
     for(int i=0;i<height.size();i++){
         int len = height[i];
 
