@@ -92,7 +92,7 @@ int maxRectangle(vector<vector<char> >& matrix){
 }
 
 int main(){
-    vector<vector<char>> matrix = {
+    vector<vector<char> > matrix = {
     {'1','0','1','0','0'},
     {'1','0','1','1','1'},
     {'1','1','1','1','1'},

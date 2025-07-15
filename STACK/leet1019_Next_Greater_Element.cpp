@@ -22,7 +22,7 @@ class Node{
 
 vector<int> nextLarge(Node* head){
     vector<int>l;
-    while(head){
+    while(head!=NULL){
         l.push_back(head->data);
         head = head->next;
     }
