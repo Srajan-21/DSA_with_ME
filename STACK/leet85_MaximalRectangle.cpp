@@ -62,19 +62,19 @@ int getArea(vector<int> &height){
     return maxArea;
 }
 
-int maxRectangle(vector<vector<char> >& matrix){
-    vector<vector<int> >v;
-    int n = matrix.size();
-    int m = matrix[0].size();
+int maxRectangle(vector<vector<int> >& v){
+    // vector<vector<int> >v;
+    int n = v.size();
+    int m = v[0].size();
 
-    for(int i = 0 ; i < n ; i++){
-        vector<int> t;
-        for(int j= 0;j<m;j++)
-        {
-            t.push_back(matrix[i][j] - '0');
-        }
-        v.push_back(t);
-    }
+    // for(int i = 0 ; i < n ; i++){
+    //     vector<int> t;
+    //     for(int j= 0;j<m;j++)
+    //     {
+    //         t.push_back(matrix[i][j] - '0');
+    //     }
+    //     v.push_back(t);
+    // }
 
     int area = getArea(v[0]);
     for(int i = 1;i<n;i++){
@@ -92,11 +92,11 @@ int maxRectangle(vector<vector<char> >& matrix){
 }
 
 int main(){
-    vector<vector<char> > matrix = {
-    {'1','0','1','0','0'},
-    {'1','0','1','1','1'},
-    {'1','1','1','1','1'},
-    {'1','0','0','1','0'}
+    vector<vector<int>> matrix = {
+    {1, 0, 1, 0, 0},
+    {1, 0, 1, 1, 1},
+    {1, 1, 1, 1, 1},
+    {1, 0, 0, 1, 0}
 };
 
     cout<<"Area : "<<maxRectangle(matrix)<<endl;

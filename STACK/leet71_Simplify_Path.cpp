@@ -9,7 +9,7 @@ void buildAns(stack<string>&s,string& ans){
     string minPath = s.top(); 
     s.pop();
     buildAns(s,ans);
-    ans+="/"+minPath;
+    ans+=""+minPath;
 }
 
 string simplify(string &path){
@@ -23,12 +23,13 @@ string simplify(string &path){
             ++end;
         }
         string minPath = path.substr(start,end-start);
+        cout<<minPath<<" "<<endl;
         i=end;
 
         if(minPath=="/"||minPath=="/."){
             continue;
         }
-        if(minPath!="..")s.push(minPath);
+        if(minPath!="/..")s.push(minPath);
         else if (!s.empty())s.pop();       
     }
 
@@ -38,7 +39,8 @@ string simplify(string &path){
 }
 
 int main(){
-    string s = "/home/user/Documents/../Pictures";
+    string s = "/home/user/Documents/../Pictures"
+;
     string ans = simplify(s);
     cout<<ans;
     // cout<<longest(s);

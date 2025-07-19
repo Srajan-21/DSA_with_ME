@@ -45,3 +45,9 @@ string decode(string s){
     reverse(ans.begin(),ans.end());
     return ans;
 }
+
+int main(){
+    string s = "3[a]2[bc]";
+    cout<<decode(s);
+    return 0;
+}

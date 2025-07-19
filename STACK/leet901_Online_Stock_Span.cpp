@@ -4,7 +4,7 @@
 using namespace std;
 
 class StockSpanner {
-    stack<pair<int, int>> st; // {price, span}
+    stack<pair<int, int> > st; // {price, span}
 public:
     int next(int price) {
         int span = 1;

@@ -55,7 +55,7 @@ bool isValidStack(string s)
 }
 
 int main(){
-    string s = "aabcbc";
+    string s = "abcababcc";
     if(isValid(s)==1)
     cout<<"true";
     else cout<<"false";
