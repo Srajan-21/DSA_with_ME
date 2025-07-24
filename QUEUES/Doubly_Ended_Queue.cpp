@@ -68,7 +68,7 @@ class Deque{
 
     void popRear(){
         if(front == -1){
-            cout<<"Q is Empty , cant pop from front";
+            cout<<"Q is Empty , cant pop from rear";
             return;
         }
         else if(front == rear){
@@ -138,4 +138,9 @@ int main(){
     q.print();
     q.pushFront(10);
     q.pushRear(9);
+
+    q.popFront();
+    q.print();
+    q.popRear();
+    q.print();
 }

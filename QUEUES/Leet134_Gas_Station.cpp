@@ -18,6 +18,7 @@ using namespace std;
                 deficit += balance;
                 start = i+1;
                 balance = 0;
+                cout<<"deficit : "<<deficit<<endl;
             }
         }
 

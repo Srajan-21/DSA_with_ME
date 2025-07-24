@@ -15,7 +15,7 @@ void solve(int arr[] , int n , int k){
     // remainder window
     for(int i = k ; i < n ; i++){
         // give answer to old window
-        if(q.empty())
+        if(q.empty()) 
             cout<<0<<" ";
         else
             cout<<arr[q.front()]<<" ";
