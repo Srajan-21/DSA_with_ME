@@ -80,10 +80,46 @@ int height(Node* root){
     return ans;
 }
 
+// TC - O(n^2) - bcoz diameter recursively call krne k sat sath har node k height ko bhi recursisvely call kr rhe h
+int diameter(Node* root){
+    if(root == NULL)return 0;
+
+    int l1 = diameter(root->left);
+    int l2 = diameter(root->right);
+    int l3 = height(root->right)+height(root->left)+1;
+
+    int ans = max(l1 , max(l2 , l3));
+    return ans-1;
+}
+
+pair<int , int> diameter_Optimal(Node* root){
+    if(root == NULL){
+        pair<int , int>p = make_pair(0,0);
+        return p;
+    }
+
+    pair<int , int> left = diameter_Optimal(root->left);
+    pair<int , int> right = diameter_Optimal(root->right);
+
+    int l1 = left.first;
+    int l2 = right.first;
+    int l3 = left.second + right.second + 1;
+
+    pair<int , int> ans;
+    ans.first = max(l1,max(l2,l3));
+    ans.second = max(left.second , right.second) + 1;
+
+    return ans;
+}
+
+int diam(Node* root){
+    return diameter_Optimal(root).first;
+}
+
 int main(){
     Node* root = buildTree();
     cout<<"Root : "<<root->data<<endl<<endl;
-    // 3 9 -1 -1 20 15 -1 6 -1 -1 7 -1 -1
+    // 1 2 4 -1 -1 5 -1 -1 3 -1 -1
 
     cout<<endl<<endl;
     
@@ -91,6 +127,6 @@ int main(){
     levelOrderTraversal(root);
     cout<<endl<<endl;
 
-    cout<<"Height : "<<height(root);
+    cout<<"Diameter : "<<diameter(root);
     return 0;
 }
