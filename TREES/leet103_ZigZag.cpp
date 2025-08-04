@@ -65,58 +65,56 @@ void levelOrderTraversal(Node* root){
     }
 }
 
-pair<bool , int> solve(Node* root)
-{
-    if(root == NULL)
-    {
-        pair<bool , int> p =make_pair(true,0);
-        return p;
+vector<vector<int>> zigzagLevelOrder(Node* root) {
+        vector<vector<int>>res;
+        if(root == NULL)return res;
+
+        queue<Node*> q;
+        q.push(root);
+
+        bool flag = true;
+
+        while(!q.empty()){
+            int size = q.size();
+
+            vector<int>ans(size);
+
+            for(int i = 0;i <size ;i++){
+                Node* frontNode = q.front();
+                q.pop();
+
+                int index = flag ? i : size - i - 1;
+                ans[index] = frontNode->data;
+
+                if(frontNode->left)q.push(frontNode->left);
+                if(frontNode->right)q.push(frontNode->right);
+            }
+
+            flag = !flag;
+
+            res.push_back(ans);
+        }
+        return res;
     }
-
-    if(root->left == NULL && root->right == NULL){
-        pair<bool,int> p = make_pair(true,root->data);
-        return p;
-    }
-
-    pair<bool , int> leftAns = solve(root->left);
-    pair<bool , int> rightAns = solve(root->right);
-
-    bool isLeftSumTree = leftAns.first;
-    bool isRightSumTree = rightAns.first;
-
-    int leftSum = leftAns.second;
-    int rightSum = rightAns.second;
-
-    bool cond = root->data == leftSum + rightSum;
-
-    pair<bool , int>ans;
-
-    if(isLeftSumTree && isRightSumTree && cond){
-        ans.first = true;
-        ans.second = root->data + leftSum + rightSum;
-    }
-    else{
-        ans.first = false;
-    }
-
-    return ans;
-}
-
-bool isSum(Node* root){
-    return solve(root).first;
-}
 
 int main(){
     Node* root = buildTree();
     cout<<"Root : "<<root->data<<endl<<endl;
-    // 3 1 -1 -1 2 -1 -1
+    // 7 9 8 10 -1 -1 9 -1 -1 8 -1 -1 7 6 -1 -1 -1
+
     cout<<endl<<endl;
     
     cout<<"Level order : "<<endl;
     levelOrderTraversal(root);
     cout<<endl<<endl;
 
-    cout<<"Is Sum : "<<isSum(root)<<endl<<endl;
+    vector<vector<int>> ans = zigzagLevelOrder(root);
+    for (auto level : ans) {
+        for (int val : level) {
+            cout << val << " ";
+        }
+        cout << endl;
+    }
 
     return 0;
 }
