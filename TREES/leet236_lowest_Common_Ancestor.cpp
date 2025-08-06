@@ -1,5 +1,4 @@
 #include <iostream>
-#include <limits.h>
 #include <queue>
 using namespace std;
 
@@ -65,43 +64,64 @@ void levelOrderTraversal(Node* root){
         }
     }
 }
-// TC - O(n)
-// SC - O(h)
-void solve(Node* root , int sum , int &maxSum , int len , int &maxLen){
-    if(root == NULL){
-        if(len>maxLen){
-            maxLen = len;
-            maxSum = sum;
-        }
-        else if(len == maxLen){
-            maxSum = max(sum , maxSum);
-        }
-        return;
-    }
-    sum = sum + root->data;
-    
-    solve(root->left , sum , maxSum , len+1 , maxLen);
-    solve(root->right , sum , maxSum , len+1 , maxLen);
-}
-int sumOfLongRootToLeafPath(Node* root) {
-    int len = 0 , maxLen = 0 , sum = 0 , maxSum = INT_MIN;
 
-    solve(root , sum , maxSum , len , maxLen);
-    return maxSum;
+Node* findNode(Node* root, int val){
+    if(root == NULL)
+        return NULL;
+    if(root->data == val)
+        return root;
+
+    Node* leftSearch = findNode(root->left, val);
+    if(leftSearch)
+        return leftSearch;
+
+    return findNode(root->right, val);
+}
+
+Node* lca(Node* root , Node* p , Node* q){
+    if(root == NULL)
+        return NULL;
+
+    if(root->data == p->data)
+        return p;
+
+    if(root->data == q->data)
+        return q;
+
+    Node* leftAns = lca(root->left , p , q);
+    Node* rightAns = lca(root->right , p , q);
+
+    if(!leftAns && !rightAns)
+        return NULL;
+    else if(leftAns && !rightAns)
+        return leftAns;
+    else if(!leftAns && rightAns)
+        return rightAns;
+    else
+        return root;
 }
 
 int main(){
     Node* root = buildTree();
     cout<<"Root : "<<root->data<<endl<<endl;
-    // 4 2 7 -1 -1 1 6 -1 -1 -1 5 2 -1 -1 3 -1 -1
+    // 3 5 6 -1 -1 2 7 -1 -1 4 -1 -1 1 0 -1 -1 8 -1 -1
+
     cout<<endl<<endl;
     
     cout<<"Level order : "<<endl;
     levelOrderTraversal(root);
-    cout<<endl;
+    cout<<endl<<endl;
 
-    int maxSum = sumOfLongRootToLeafPath(root);
-    cout<<maxSum;
+    int val1 = 3, val2 = 7 ;
+    Node* p = findNode(root, val1);
+    Node* q = findNode(root, val2);
+    if(p && q){
+        Node* ancestor = lca(root , p , q);
+        cout<<"LCA of "<<val1<<" and "<<val2<<" is: "<<ancestor->data<<endl;
+    }
+    else{
+        cout<<"One or both nodes not found in the tree."<<endl;
+    }
 
     return 0;
 }
