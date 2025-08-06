@@ -66,6 +66,7 @@ void levelOrderTraversal(Node* root){
 }
 
 bool kthAncestor(Node* root , int &k , int p){
+    // tree class 1 dekhna firse 1.24 vector approach iski
     if(root == NULL)return false;
 
     if(root->data == p)return true;
