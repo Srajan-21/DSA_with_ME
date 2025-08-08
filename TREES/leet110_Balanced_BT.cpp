@@ -65,33 +65,80 @@ void levelOrderTraversal(Node* root){
     }
 }
 
-// TC - O(n)
-// SC - O(height)
-int height(Node* root){
-    // Base Case
-    if(root == NULL){
-        return 0;
-    }
-
-    int left = height(root->left);
-    int right = height(root->right);
-
-    int ans = max(left , right) + 1;
-    return ans;
-}
-
- bool isBalanced(Node* root) {
+// optimal
+    pair<bool,int> solve(TreeNode* root){
         if(root == NULL)
-            return true;
+        {
+            pair<bool , int> p =make_pair(true,0);
+            return p;
+        }
 
-        bool left = isBalanced(root->left);
-        bool right = isBalanced(root->right);
+        pair<int , int> left = solve(root->left);
+        pair<int , int> right = solve(root->right);
 
-        bool diff = abs(height(root->left) - height(root->right)) <= 1;
+        bool leftAns = left.first;
+        bool rightAns = right.first;
 
-        if(left && right && diff)return true;
-        else return false;
+        bool diff = abs(left.second - right.second) <= 1;
+
+        pair<bool,int> ans;
+        ans.second = max(left.second , right.second)+1;
+
+        if(leftAns && rightAns && diff)ans.first = true;
+        else ans.first = false;
+
+        return ans;
     }
+
+    bool isBalanced(TreeNode* root) {
+        return solve(root).first;
+    }
+
+
+    // better but not optimal 
+    // int height(TreeNode* root, bool &isbalanced){
+    //     if(!root)return 0;
+
+    //     int lh = height(root->left);
+    //     int rh = height(root->right);
+
+    //     if(isbalanced && abs(lh-rh)>1)
+    //         isbalanced = false;
+
+    //     return max(lh , rh)+1;
+    // }
+    // bool isBalanced(TreeNode* root){
+    //     bool isbalanced = true
+    //     height(root , isbalanced);
+    //     return isbalanced;
+    // }
+
+
+
+    // not optimal
+
+    // int height(TreeNode* root) {
+    //     if(root == NULL)
+    //         return 0;
+
+    //     int left = height(root->left);
+    //     int right = height(root->right);
+
+    //     return max(left , right)+1;
+    // }
+
+    // bool isBalanced(TreeNode* root) {
+    //     if(root == NULL)
+    //         return true;
+
+    //     bool left = isBalanced(root->left);
+    //     bool right = isBalanced(root->right);
+
+    //     bool diff = abs(height(root->left) - height(root->right)) <= 1;
+
+    //     if(left && right && diff)return true;
+    //     else return false;
+    // }
 
 int main(){
     Node* root = buildTree();
