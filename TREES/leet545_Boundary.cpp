@@ -139,7 +139,7 @@ vector<int> boundary(Node* root){
 
     ans.push_back(root->data);
 
-    // left part print/store
+    // left part print/store1
     traverseLeft(root->left,ans);
     // left subtree 
     traversaLeaf(root->left,ans);

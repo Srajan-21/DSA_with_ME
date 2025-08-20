@@ -67,12 +67,12 @@ void levelOrderTraversal(Node* root){
     }
 }
 
-vector<int> topView(Node* root){
+vector<int> bottomView(Node* root){
     vector<int> ans;
 
     if(root == NULL)return ans;
 
-    map<int,int> topNode;
+    map<int,int> bottomNode;
 
     queue<pair<Node* , int>>q;
 
@@ -86,7 +86,7 @@ vector<int> topView(Node* root){
 
         // if one value is present for hd then do nothing
         
-        topNode[hd] = frontNode->data;
+        bottomNode[hd] = frontNode->data;
         
 
         if(frontNode->left)
@@ -95,7 +95,7 @@ vector<int> topView(Node* root){
             q.push(make_pair(frontNode->right , hd+1));
     }
 
-    for(auto i : topNode)
+    for(auto i : bottomNode)
     {
         ans.push_back(i.second);
     }
@@ -114,7 +114,7 @@ int main(){
     levelOrderTraversal(root);
     cout<<endl<<endl;
 
-    vector<int> ans = topView(root);
+    vector<int> ans = bottomView(root);
     
     for(auto i : ans){
         cout<<i<<" ";

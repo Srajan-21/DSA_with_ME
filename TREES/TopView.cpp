@@ -91,7 +91,7 @@ vector<int> topView(Node* root){
 
         if(frontNode->left)
             q.push(make_pair(frontNode->left , hd-1));
-        if(frontNode->right)
+        if(frontNode->right) 
             q.push(make_pair(frontNode->right , hd+1));
     }
 
