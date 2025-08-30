@@ -65,6 +65,29 @@ Node* insertIntoBST(Node* root , int d){
     return root;
 }
 
+Node* lca(Node* root , Node* p , Node* q){
+    // SC-O(1)
+        while(root != NULL){
+            if(root->data < p->data && root->data < q->data) root = root->right;
+            else if(root->data > p->data && root->data > q->data)root=root->left;
+            else return root;
+        }
+        return NULL;
+
+        // TC-O(h) SC-O(h)
+        // if(root == NULL)return NULL;
+
+        // if(root->val < p->val && root->val < q->val)
+        //     return lowestCommonAncestor(root->right , p , q);
+        
+        // if(root->val > p->val && root->val > q->val)
+        //     return lowestCommonAncestor(root->left , p , q);
+
+        // return root;
+}
+
+
+
 void takeInput(Node* &root){
     int data;
     cin>>data;
@@ -75,56 +98,21 @@ void takeInput(Node* &root){
     }
 }
 
-pair<int,int> predSucc(Node* root , int key)
-{
-
-    Node* temp = root;
-    int pred=-1 , succ =-1;
-
-    while(temp->data != key)
-    {
-        if(temp->data>key)
-        {
-            succ=temp->data;
-            temp=temp->left;
-        }
-        else{
-            pred=temp->data;
-            temp=temp->right;
-        }
-    }
-
-    if(temp == NULL) return {-1, -1};
-
-    Node* leftTree = temp->left;
-    while(leftTree)
-    {
-        pred=leftTree->data;
-        leftTree=leftTree->right;
-    }
-
-    Node* rightTree=temp->right;
-    while(rightTree)
-    {
-        succ=rightTree->data;
-        rightTree=rightTree->left;
-    }
-
-    // return {pred,succ};
-    pair<int,int> ans = make_pair(pred,succ);
-    return ans;
-}
-
 int main(){
     Node* root = NULL;
     cout<<"Enter data to create BST"<<endl<<endl;
-    // 50 30 70 20 40 60 80 -1
+    // 6 2 8 0 4 7 9 3 4 5 -1
     takeInput(root);
     cout<<endl<<endl;
 
-    levelOrderTraversal(root);
+    Node* p=new Node(3);
+    Node* q = new Node(8);
 
-    cout<<"Predecessor : "<<predSucc(root , 70).first<<endl;
-    cout<<"Successor : "<<predSucc(root , 70).second<<endl;
+    levelOrderTraversal(root);
+    cout<<endl;
+
+    cout<<"Lowest common Ancestor of "<<p->data<<" & "<<q->data<<" : "<<lca(root,p,q)->data;
+
+
     return 0;
 }
