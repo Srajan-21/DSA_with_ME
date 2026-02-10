@@ -2,6 +2,9 @@
 #include <queue>
 using namespace std;
 
+// O(n) time complexity
+// O(n) space complexity
+
 class Node{
     public:
         int data;
