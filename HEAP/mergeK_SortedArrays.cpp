@@ -62,7 +62,7 @@ vector<int> mergeKSortedArrays(vector<vector<int>>&arrs , int k)
 }
 
 int main(){
-    vector<vector<int>> arrs = {{1,4,5},{1,3,4},{2,6}};
+    vector<vector<int>> arrs = {{1,4,5},{1,3,4},{2,4,6}};
     int k = 3;
 
     vector<int>ans = mergeKSortedArrays(arrs , k);
