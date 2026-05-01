@@ -3,6 +3,10 @@
 #include<queue>
 using namespace std;
 
+// TC - O(nlogk) where n is the total number of nodes in all the linked lists and k is the number of linked lists.
+// SC - O(k) for the min heap which can contain at most k nodes at any
+
+
 class Node{
     public:
     int data;
