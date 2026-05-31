@@ -50,7 +50,7 @@ string cycleDetection(vector<vector<int>>&edges , int n , int m)
 
     // to handle disconnected components;
     unordered_map<int,bool> visited;
-    for(int i = 0 ; i < n ; i++)
+    for(int i = 1 ; i <= n ; i++)
     {
         if(!visited[i])
         {
