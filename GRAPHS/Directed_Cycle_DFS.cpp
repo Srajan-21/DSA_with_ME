@@ -8,22 +8,22 @@ using namespace std;
 
 bool chkCycleDFS(int node , unordered_map<int,bool> &visited , unordered_map<int,bool> &dfsVisited , unordered_map<int , list<int>> &adj)
 {
-     visited[node] = 1;
-     dfsVisited[node] = 1;
+    visited[node] = 1;
+    dfsVisited[node] = 1;
 
-     for(auto neighbour : adj[node])
-     {
+    for(auto neighbour : adj[node])
+    {
         if(!visited[neighbour])
         {
             bool cycleFound = chkCycleDFS(neighbour , visited , dfsVisited , adj);
             if(cycleFound)
-             return true;
+                return true;
         }
         else if(dfsVisited[neighbour])
         {
             return true;
         }
-     }
+    }
 
         dfsVisited[node] = 0;
         return false;
@@ -50,7 +50,7 @@ int cycleDetection(int n, vector<pair<int,int>>&edges)
         {
             bool cycleFound = chkCycleDFS(i , visited , dfsVisited , adj);
             if(cycleFound)
-             return true;
+                return true;
         }
     }
     return false;
