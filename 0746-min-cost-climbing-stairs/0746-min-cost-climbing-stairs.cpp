@@ -1,7 +1,21 @@
 class Solution {
 public:
 
-    // Tabulation - Bottom Up
+    // Space Optimiztion TC - O(n) SC - O(1)
+    int solve4(vector<int>& cost , int n){
+        int prev2 = cost[0];
+        int prev1 = cost[1];
+
+        for(int i = 2 ; i < n ; i++){
+            int curr = cost[i] + min(prev1 , prev2);
+            prev2 = prev1;
+            prev1 = curr;
+        }
+
+        return min(prev1 , prev2);
+    }
+
+    // Tabulation - Bottom Up TC - O(n) SC - O(n)
     int solve3(vector<int>&cost , int n){
         vector<int> dp(n+1);
 
@@ -15,7 +29,7 @@ public:
         return min(dp[n-1] , dp[n-2]);
     }
 
-    // Recursion + Memoization 
+    // Recursion + Memoization TC - O(n) SC - O(n)+O(n)
     int solve2(vector<int>&cost , int n , vector<int>& dp){
         // Base Case
         if(n==0 || n==1)return cost[n];
@@ -46,7 +60,10 @@ public:
         // int ans = min(solve2(cost , n-1 , dp) , solve2(cost , n-2 , dp));
 
         // Approach 3 Tabulation - Bottom Up
-        int ans = solve3(cost , n);
+        // int ans = solve3(cost , n);
+
+        // Aprroach 4 Space Optimization
+        int ans = solve4(cost , n);
 
         return ans;
     }
