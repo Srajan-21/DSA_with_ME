@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Srajan-21/DSA_with_ME/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/2553-separate-the-digits-in-an-array) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Srajan-21/DSA_with_ME/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Greedy
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2287-rearrange-characters-to-make-target-string) |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Srajan-21/DSA_with_ME/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Counting
@@ -85,4 +87,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
+## Enumeration
+|  |
+| ------- |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Srajan-21/DSA_with_ME/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 <!---LeetCode Topics End-->
