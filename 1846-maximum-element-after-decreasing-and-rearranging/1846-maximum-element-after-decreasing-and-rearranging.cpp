@@ -8,10 +8,8 @@ public:
 
 
         for(int i = 1 ; i < n ; i++){
-            if(abs(arr[i]-arr[i-1]) <= 1)continue;
-            else{
-                arr[i] = arr[i-1] + 1;
-            }            
+            if(abs(arr[i]-arr[i-1]) > 1)
+                arr[i] = min(arr[i-1] + 1 , arr[i]);        
         }
 
         return arr[n-1];
