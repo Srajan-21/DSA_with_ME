@@ -8,32 +8,17 @@ public:
 
 
         for(int i = 1 ; i < n ; i++){
-            if(abs(arr[i]-arr[i-1]) > 1)
-                arr[i] = min(arr[i-1] + 1 , arr[i]);        
+            if(abs(arr[i]-arr[i-1]) <= 1)continue;
+            else{
+                arr[i] = arr[i-1] + 1;
+            }            
         }
 
-        return arr[n-1];
-   
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        // sort(arr.begin(), arr.end());
-
-        // arr[0] = 1;
-
-        // for (int i = 1; i < arr.size(); i++) {
-        //     arr[i] = min(arr[i], arr[i - 1] + 1);
+        // for(int i = 1 ; i < n ; i++){
+        //     if(abs(arr[i]-arr[i-1]) > 1)
+        //         arr[i] = min(arr[i-1] + 1 , arr[i]);        
         // }
 
-        // return arr.back();
+        return arr[n-1];
     }
 };
