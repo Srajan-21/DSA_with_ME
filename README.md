@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Srajan-21/DSA_with_ME/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Greedy
 |  |
 | ------- |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3700-number-of-zigzag-arrays-ii) |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Math
 |  |
 | ------- |
@@ -99,4 +101,16 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Srajan-21/DSA_with_ME/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+## Graph Theory
+|  |
+| ------- |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
+## Shortest Path
+|  |
+| ------- |
+| [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 <!---LeetCode Topics End-->
