@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Srajan-21/DSA_with_ME/tree/master/0035-search-insert-position) |
 | [0322-coin-change](https://github.com/Srajan-21/DSA_with_ME/tree/master/0322-coin-change) |
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Srajan-21/DSA_with_ME/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Union-Find
