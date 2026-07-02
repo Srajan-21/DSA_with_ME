@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Srajan-21/DSA_with_ME/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0322-coin-change](https://github.com/Srajan-21/DSA_with_ME/tree/master/0322-coin-change) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -108,15 +110,18 @@ A collection of LeetCode questions to ace the coding interview!
 ## Graph Theory
 |  |
 | ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Shortest Path
 |  |
 | ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Sliding Window
 |  |
@@ -134,4 +139,5 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
 <!---LeetCode Topics End-->
