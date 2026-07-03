@@ -53,9 +53,6 @@ public:
                 int v = j.first;
                 int w = j.second;
 
-                if(v != n-1 && !online[v])
-                    continue;
-
                 if(w < mid)
                     continue;
 
