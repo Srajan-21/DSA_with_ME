@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Srajan-21/DSA_with_ME/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0198-house-robber](https://github.com/Srajan-21/DSA_with_ME/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Srajan-21/DSA_with_ME/tree/master/0322-coin-change) |
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
+| [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
@@ -116,17 +118,20 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Shortest Path
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
 | [3977-minimum-time-to-reach-target-with-limited-power](https://github.com/Srajan-21/DSA_with_ME/tree/master/3977-minimum-time-to-reach-target-with-limited-power) |
 ## Sliding Window
 |  |
@@ -139,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0035-search-insert-position](https://github.com/Srajan-21/DSA_with_ME/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
 ## Union-Find
 |  |
 | ------- |
@@ -148,4 +154,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Topological Sort
+|  |
+| ------- |
+| [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
 <!---LeetCode Topics End-->
