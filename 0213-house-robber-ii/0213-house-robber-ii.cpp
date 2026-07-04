@@ -40,6 +40,23 @@ public:
         return dp[n-1];
     }
 
+    int space(vector<int>& nums){
+        int n = nums.size();
+
+        int prev2 = 0;
+        int prev1 = max(0 , nums[0]);
+
+        for(int i = 1 ; i < n ; i++){
+            int inc = prev2 + nums[i];
+            int exc = prev1;
+
+            int ans = max(inc , exc);
+            prev2 = prev1;
+            prev1 = ans;
+        }
+        return prev1;
+    }
+
     int rob(vector<int>& nums) {
         vector<int> first , second;
         int n = nums.size();
@@ -53,7 +70,8 @@ public:
             if (i != 0)second.push_back(nums[i]);
         }
 
-        return max(tab(first) , tab(second));
+        return max(space(first) , space(second));
+        // return max(tab(first) , tab(second));
         // return max(memo(first , dp1 , n-2) , memo(second , dp2 , n-2));
         // return max(rec(first , n-2) , rec(second , n-2));
     }
