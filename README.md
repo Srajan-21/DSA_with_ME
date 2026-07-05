@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
+| [1301-number-of-paths-with-max-score](https://github.com/Srajan-21/DSA_with_ME/tree/master/1301-number-of-paths-with-max-score) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Srajan-21/DSA_with_ME/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Srajan-21/DSA_with_ME/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Srajan-21/DSA_with_ME/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0213-house-robber-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/Srajan-21/DSA_with_ME/tree/master/0322-coin-change) |
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
+| [1301-number-of-paths-with-max-score](https://github.com/Srajan-21/DSA_with_ME/tree/master/1301-number-of-paths-with-max-score) |
 | [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3700-number-of-zigzag-arrays-ii) |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Matrix
 |  |
 | ------- |
+| [1301-number-of-paths-with-max-score](https://github.com/Srajan-21/DSA_with_ME/tree/master/1301-number-of-paths-with-max-score) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Topological Sort
