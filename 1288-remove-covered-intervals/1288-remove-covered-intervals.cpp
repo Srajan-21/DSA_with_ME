@@ -14,13 +14,13 @@ public:
         int count = 0;
         int maxEnd = INT_MIN;
 
-        for(auto i : intervals){
+        for(const auto& i : intervals){
             int end = i[1];
-            if(end > maxEnd)
-                maxEnd = end;
-            else 
+            if(end > maxEnd){
+                maxEnd = end; 
                 count++;
+            }
         }
-        return intervals.size() - count;
+        return count;
     }
 };
