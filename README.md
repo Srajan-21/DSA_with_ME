@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0070-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0070-climbing-stairs) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3700-number-of-zigzag-arrays-ii) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Memoization
 |  |
 | ------- |
