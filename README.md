@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2390-removing-stars-from-a-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2390-removing-stars-from-a-string) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Stack
 |  |
 | ------- |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3699-number-of-zigzag-arrays-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0070-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0070-climbing-stairs) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Memoization
 |  |
 | ------- |
