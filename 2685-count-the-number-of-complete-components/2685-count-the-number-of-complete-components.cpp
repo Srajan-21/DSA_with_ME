@@ -43,7 +43,7 @@ public:
 
         DisjointSet ds(n);
 
-        for(auto i : edges){
+        for(auto& i : edges){
             ds.union_By_Size(i[0] , i[1]);
         }
 
@@ -55,14 +55,14 @@ public:
             nodeCount[root]++;
         }
 
-        for(auto i : edges){
+        for(auto& i : edges){
             int root = ds.find_Ultimate_Parent(i[0]);
             edgeCount[root]++;
         }
 
         int ans = 0;
 
-        for(auto i : nodeCount){
+        for(auto& i : nodeCount){
             int edge = edgeCount[i.first];
             int exp = i.second * (i.second - 1) / 2;
 
