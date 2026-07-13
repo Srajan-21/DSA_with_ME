@@ -20,6 +20,8 @@ public:
     }
 
     // MEMOIZATION
+    // TC - O(n^2)
+    // SC - O(n^2)DP + O(n)recursion stack
     int solveMEMOIZATION(vector<int>& cost , vector<int>& time , int index , int remaining ,  vector<vector<int>> &dp){
 
         if(remaining <= 0)return 0;
@@ -34,16 +36,47 @@ public:
         dp[index][remaining] = min(skip , take);
 
         return dp[index][remaining];
-
     }
+
+    // TABULATION
+    // TC - O(n^2)
+    // SC - O(n^2)DP 
+    int solveTABULATION(vector<int>& cost , vector<int>& time){
+        int n = cost.size();
+        vector<vector<int>> dp(n + 1 ,vector<int>(n + 1 , 0));
+
+        for(int i = 0 ; i <= n ;i++){
+            dp[i][0] = 0;
+        }
+        for(int rem = 1 ; rem <= n ; rem++){
+            dp[n][rem] = INF;
+        }
+
+        for(int index = n - 1 ; index >= 0 ; index--){
+            for(int remaining = 1 ; remaining <= n ; remaining++){
+
+                int skip = dp[index + 1][remaining];
+                int newRem = max(0 , remaining - ( 1 + time[index]));
+
+                int take = cost[index] + dp[index + 1][newRem];
+
+                dp[index][remaining] = min(skip , take);
+            }
+        }
+
+        return dp[0][n];
+    }
+
 
     int paintWalls(vector<int>& cost, vector<int>& time) {
         int n = cost.size();
 
-        vector<vector<int>> dp(n + 1 ,vector<int>(n + 1 , -1));
-        return solveMEMOIZATION(cost , time , 0 , cost.size() , dp);
+        return solveTABULATION(cost , time);
+
+        // vector<vector<int>> dp(n + 1 ,vector<int>(n + 1 , -1));
+        // return solveMEMOIZATION(cost , time , 0 , n , dp);
         
-        // return solveRECURSION(cost , time , 0 , cost.size());
+        // return solveRECURSION(cost , time , 0 , n);
         
     }
 };
