@@ -67,11 +67,40 @@ public:
         return dp[0][n];
     }
 
+    // TABULATION
+    // TC - O(n^2)
+    // SC - O(n) 
+    int solveSPACEOPTIMIZATION(vector<int>& cost , vector<int>& time){
+
+        int n = cost.size();
+        vector<int> next(n + 1 , INF);
+        vector<int> curr(n + 1 , INF);
+
+        next[0] = 0;
+
+        for(int index = n - 1 ; index >= 0 ; index--){
+            curr[0] = 0;
+
+            for(int rem = 1 ; rem  <= n ; rem++){
+
+                int skip = next[rem];
+                int remaining = max( 0 , rem - (1 + time[index]));
+
+                int take = cost[index] + next[remaining];
+                curr[rem] = min(skip , take);
+            }
+
+            next = curr;
+        }
+
+        return next[n];
+    }
 
     int paintWalls(vector<int>& cost, vector<int>& time) {
         int n = cost.size();
 
-        return solveTABULATION(cost , time);
+        return solveSPACEOPTIMIZATION(cost , time); 
+        // return solveTABULATION(cost , time);
 
         // vector<vector<int>> dp(n + 1 ,vector<int>(n + 1 , -1));
         // return solveMEMOIZATION(cost , time , 0 , n , dp);
