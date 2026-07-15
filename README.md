@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0062-unique-paths](https://github.com/Srajan-21/DSA_with_ME/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0070-climbing-stairs) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Srajan-21/DSA_with_ME/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Srajan-21/DSA_with_ME/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Srajan-21/DSA_with_ME/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Srajan-21/DSA_with_ME/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Combinatorics
 |  |
 | ------- |
