@@ -40,7 +40,7 @@ public:
     // Space: O(m × n)
     int solveTABULATION(int m , int n , vector<vector<int>>& grid){
 
-        vector<vector<int>> dp(m , vector<int>(n , 0));
+        vector<vector<long long>> dp(m , vector<long long>(n , 0));
         dp[m-1][n-1] = (grid[m-1][n-1] == 0);
 
         for(int i = m-1 ; i >= 0 ; i--)
@@ -54,7 +54,7 @@ public:
                     continue;
                 }
 
-                int down = 0 , right = 0;
+                long long down = 0 , right = 0;
 
                 if(i + 1 < m){
                     down = dp[i + 1][j];
@@ -68,7 +68,7 @@ public:
             }
         }
 
-        return dp[0][0];
+        return (int)dp[0][0];
 
     }
 
@@ -76,10 +76,10 @@ public:
     // Space: O(n)
     int solveSPACEOPTIMIZATION(int m , int n , vector<vector<int>>& grid){
 
-        vector<int> next(n , 0);
+        vector<long long> next(n , 0);
 
         for(int i = m - 1 ; i >= 0 ; i--){
-            vector<int> curr(n , 0);
+            vector<long long> curr(n , 0);
 
             for(int j = n - 1 ; j >= 0 ; j--){
 
@@ -93,7 +93,7 @@ public:
                     continue;
                 }
 
-                int down = 0 , right = 0;
+                long long down = 0 , right = 0;
 
                 if( i + 1 < m)
                     down = next[j];
@@ -121,10 +121,10 @@ public:
         
         // return solveSPACEOPTIMIZATION(m , n , grid);
 
-        // return solveTABULATION(m , n , grid);
+        return solveTABULATION(m , n , grid);
 
-        vector<vector<int>> dp(m , vector<int>(n , -1));
-        return solveMEMOIZATION(0 , 0 , m , n , dp , grid);
+        // vector<vector<long long>> dp(m , vector<long long>(n , -1));
+        // return solveMEMOIZATION(0 , 0 , m , n , dp , grid);
 
         // return solveRECURSION(0 , 0 , m , n , grid);
         
