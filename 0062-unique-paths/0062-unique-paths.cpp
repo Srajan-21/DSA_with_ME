@@ -68,10 +68,43 @@ public:
 
     // Time: O(m × n)
     // Space: O(n)
+    int solveSPACEOPTIMIZATION(int m , int n){
+
+        vector<int> next(n , 0);
+
+        for(int i = m - 1 ; i >= 0 ; i--){
+            vector<int> curr(n , 0);
+
+            for(int j = n - 1 ; j >= 0 ; j--){
+
+                if(i == m-1 && j == n-1){
+                    curr[j] = 1;
+                    continue;
+                }
+
+                int down = 0 , right = 0;
+
+                if( i + 1 < m)
+                    down = next[j];
+
+                if(j + 1 < n)
+                    right = curr[j + 1];
+
+                curr[j] = down + right;
+            }
+
+            next = curr;
+        }
+
+        return next[0];
+
+    }
 
     int uniquePaths(int m, int n) {
 
-        return solveTABULATION(m , n);
+        return solveSPACEOPTIMIZATION(m , n);
+
+        // return solveTABULATION(m , n);
 
         // vector<vector<int>> dp(m , vector<int>(n , -1));
         // return solveMEMOIZATION(0 , 0 , m , n , dp);
