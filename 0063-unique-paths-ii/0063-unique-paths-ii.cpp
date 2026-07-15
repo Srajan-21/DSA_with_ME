@@ -119,9 +119,9 @@ public:
         if(grid[0][0] == 1 || grid[m-1][n-1] == 1)
         return 0;
         
-        // return solveSPACEOPTIMIZATION(m , n , grid);
+        return solveSPACEOPTIMIZATION(m , n , grid);
 
-        return solveTABULATION(m , n , grid);
+        // return solveTABULATION(m , n , grid);
 
         // vector<vector<long long>> dp(m , vector<long long>(n , -1));
         // return solveMEMOIZATION(0 , 0 , m , n , dp , grid);
