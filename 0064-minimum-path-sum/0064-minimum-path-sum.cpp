@@ -66,12 +66,49 @@ public:
         return dp[0][0];
     }
 
+    // Time Complexity : O(m × n)
+    // Space Complexity : O(n)
+    int solveSPACEOPTIMIZATION(int m , int n , vector<vector<int>>& grid){
+
+        vector<int> next(n , 0);
+
+        for(int i = m - 1 ; i >= 0 ; i--)
+        {
+            vector<int> curr(n , 0);
+            for(int j = n - 1 ; j >= 0 ; j--){
+
+                if(i == m - 1 && j == n - 1){
+                    curr[j] = grid[i][j];
+                }
+
+                else{
+                    int right = INF;
+                    int down = INF;
+
+                    if(i + 1 < m){
+                        right = next[j];
+                    }
+
+                    if(j + 1 < n){
+                        down = curr[j + 1];
+                    }
+
+                    curr[j] = grid[i][j] + min(right , down);
+                }
+            }
+            next = curr;
+        }
+        return next[0];
+    }
+
     int minPathSum(vector<vector<int>>& grid) {
 
         int m = grid.size();
         int n = grid[0].size();
         
-        return solveTABULATION(m , n , grid);
+        return solveSPACEOPTIMIZATION(m , n , grid);
+
+        // return solveTABULATION(m , n , grid);
 
         // vector<vector<int>> dp(m , vector<int>(n , -1));
         // return solveMEMOIZATION(0 , 0 , m , n , grid , dp);
