@@ -57,8 +57,6 @@ public:
         for(int j = 0 ; j < n ; j++){
             dp[n-1][j] = matrix[n-1][j];
         }
-
-        
         
         for(int i = n-2  ; i >= 0 ; i--)
         {
@@ -87,16 +85,60 @@ public:
  
     }
 
+    // TC - O(n^2)
+    // SC - O(n)
+    int solveSPACEOPTIMIZATION(vector<vector<int>>& matrix){
+
+        int n = matrix.size();
+        vector<int> curr(n);
+
+        // Base Case
+        for(int j = 0 ; j < n ; j++){
+            curr[j] = matrix[n-1][j];
+        }
+        
+        for(int i = n-2  ; i >= 0 ; i--)
+        {
+            vector<int> next(n);
+            for(int j = n-1 ; j >=0 ; j--)
+            {
+                int leftDg = 1e9 , rightDg = 1e9;
+                int up = matrix[i][j] + curr[j];
+
+                if(j - 1 >= 0)
+                    leftDg = matrix[i][j] + curr[j - 1];
+
+                if(j + 1 < n)
+                    rightDg = matrix[i][j] + curr[j + 1];
+
+                next[j] = min(up , min(leftDg , rightDg));
+            }
+            curr = next;
+        }
+
+        int mini = INT_MAX;
+
+        for(int i = 0 ; i < n ; i++){
+            mini = min(mini , curr[i]);
+        }
+
+        return mini;
+ 
+    } 
+
     int minFallingPathSum(vector<vector<int>>& matrix) {
         
         int n = matrix.size();
         int ans = INT_MAX;
         vector<vector<int>> dp(n , vector<int>(n , -1));
 
-        ans = min(ans , solveTABULATION(matrix));
+        ans = min(ans , solveSPACEOPTIMIZATION(matrix));
+
+        // ans = min(ans , solveTABULATION(matrix));
 
         // for(int j = 0 ; j < n ; j++){
             // ans = min(ans , solveMEMOIZATION(matrix , 0 , j , dp));
+            
             // ans = min(ans , solveRECURSION(matrix , 0 , j));
         // }
 
