@@ -36,7 +36,7 @@ public:
             return matrix[n - 1][j];
         }
 
-        if(dp[i][j] != -1)
+        if(dp[i][j] != 1e9)
             return dp[i][j];
 
         int down = matrix[i][j] + solveMEMOIZATION(matrix , i + 1 , j , dp);
@@ -130,17 +130,17 @@ public:
         
         int n = matrix.size();
         int ans = INT_MAX;
-        vector<vector<int>> dp(n , vector<int>(n , -1));
+        vector<vector<int>> dp(n , vector<int>(n , 1e9));
 
-        ans = min(ans , solveSPACEOPTIMIZATION(matrix));
+        // ans = min(ans , solveSPACEOPTIMIZATION(matrix));
 
         // ans = min(ans , solveTABULATION(matrix));
 
-        // for(int j = 0 ; j < n ; j++){
-            // ans = min(ans , solveMEMOIZATION(matrix , 0 , j , dp));
+        for(int j = 0 ; j < n ; j++){
+            ans = min(ans , solveMEMOIZATION(matrix , 0 , j , dp));
             
             // ans = min(ans , solveRECURSION(matrix , 0 , j));
-        // }
+        }
 
         return ans;
 
