@@ -55,9 +55,34 @@ public:
         return dp[0][0];
     }
 
+    // TC - O(m^2)
+    // SC - O(m) 
+    int solveSPACEOPTIMIZATION (vector<vector<int>>& triangle){
+        int m = triangle.size();
+        vector<int> front(m);
+
+        for(int j = 0 ; j < m ; j++){
+            front[j] = triangle[m-1][j];
+        }
+
+        for(int i = m - 2 ; i >= 0 ; i--){
+            vector<int> curr(m);
+            for(int j = i ; j >= 0 ; j--){
+                int down = triangle[i][j] + front[j];
+                int diagonal = triangle[i][j] + front[j + 1];
+                curr[j] = min(down , diagonal);
+            }
+            front = curr;
+        }
+
+        return front[0];
+    }
+
     int minimumTotal(vector<vector<int>>& triangle) {
 
-        return solveTABULATION(triangle);
+        return solveSPACEOPTIMIZATION(triangle);
+
+        // return solveTABULATION(triangle);
 
         // int m = triangle.size();
         // vector<vector<int>>dp(m , vector<int>(m , INF));
