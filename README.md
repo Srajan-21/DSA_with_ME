@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0198-house-robber](https://github.com/Srajan-21/DSA_with_ME/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/Srajan-21/DSA_with_ME/tree/master/0216-combination-sum-iii) |
+| [0238-product-of-array-except-self](https://github.com/Srajan-21/DSA_with_ME/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/Srajan-21/DSA_with_ME/tree/master/0322-coin-change) |
 | [0377-combination-sum-iv](https://github.com/Srajan-21/DSA_with_ME/tree/master/0377-combination-sum-iv) |
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Srajan-21/DSA_with_ME/tree/master/0238-product-of-array-except-self) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3699-number-of-zigzag-arrays-i) |
