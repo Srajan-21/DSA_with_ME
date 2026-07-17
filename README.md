@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Srajan-21/DSA_with_ME/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Srajan-21/DSA_with_ME/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Srajan-21/DSA_with_ME/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -85,11 +87,13 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2287-rearrange-characters-to-make-target-string) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Prefix Sum
 |  |
 | ------- |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -123,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0013-roman-to-integer](https://github.com/Srajan-21/DSA_with_ME/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/Srajan-21/DSA_with_ME/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0070-climbing-stairs) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Srajan-21/DSA_with_ME/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Srajan-21/DSA_with_ME/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3700-number-of-zigzag-arrays-ii) |
@@ -205,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0035-search-insert-position](https://github.com/Srajan-21/DSA_with_ME/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
@@ -253,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Number Theory
 |  |
 | ------- |
+| [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Srajan-21/DSA_with_ME/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Srajan-21/DSA_with_ME/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -260,4 +267,5 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Srajan-21/DSA_with_ME/tree/master/0062-unique-paths) |
+| [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 <!---LeetCode Topics End-->
