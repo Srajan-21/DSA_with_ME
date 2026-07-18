@@ -3,6 +3,62 @@ public:
 
     // TC - O(n^3)
     // SC - O(n^3)
+    int solveTABULATION(vector<vector<int>>& grid)
+    {
+
+        int n = grid.size();
+        vector<vector<vector<int>>> dp(2* n - 1 , vector<vector<int>>(n , vector<int>(n , -1e9)));
+
+        // Base case
+        dp[2 * n - 2][n - 1][n - 1] = grid[n-1][n-1];
+
+        for(int step = 2 * n - 3 ; step >= 0 ; step--)
+        {
+            for (int r1 = max(0, step - (n - 1)) ; r1 <= min(n - 1, step) ; r1++)
+            {
+                int c1 = step - r1;
+                for (int r2 = max(0, step - (n - 1)) ; r2 <= min(n - 1, step) ; r2++)
+                    {
+                    int c2 = step - r2;
+
+                    if (grid[r1][c1] == -1 || grid[r2][c2] == -1)
+                        continue;
+
+                    int current = grid[r1][c1];
+
+                    if (r1 != r2 || c1 != c2)
+                        current += grid[r2][c2];
+                    
+                    int DD = -1e9;
+                    int DR = -1e9;
+                    int RD = -1e9;
+                    int RR = -1e9;
+
+                    if (r1 + 1 < n && r2 + 1 < n)
+                        DD = dp[step + 1][r1 + 1][r2 + 1];
+
+                    if (r1 + 1 < n && c2 + 1 < n)
+                        DR = dp[step + 1][r1 + 1][r2];
+
+                    if (c1 + 1 < n && r2 + 1 < n)
+                        RD = dp[step + 1][r1][r2 + 1];
+
+                    if (c1 + 1 < n && c2 + 1 < n)
+                        RR = dp[step + 1][r1][r2];
+
+                    int best = max({DD, DR, RD, RR});
+
+                    if(best != -1e9)
+                        dp[step][r1][r2] = current + best;
+                }
+            }
+        }
+
+        return max(0 , dp[0][0][0]);     
+    }
+
+    // TC - O(n^3)
+    // SC - O(n^3)
     int solveMEMOIZATION(int r1 , int c1 , int r2 , vector<vector<int>>& grid , vector<vector<vector<int>>>& dp)
     {
 
@@ -71,7 +127,9 @@ public:
         if(grid[0][0] == -1 || grid[n-1][n-1] == -1)
             return 0;
 
-        return max(0 , solveMEMOIZATION(0 , 0 , 0 , grid , dp));
+        return solveTABULATION(grid);
+
+        // return max(0 , solveMEMOIZATION(0 , 0 , 0 , grid , dp));
 
         // return max(0 , solveRECURSION(0 , 0 , 0 , grid));
     }
