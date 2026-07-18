@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Srajan-21/DSA_with_ME/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Srajan-21/DSA_with_ME/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Srajan-21/DSA_with_ME/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/2553-separate-the-digits-in-an-array) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
 | [2742-painting-the-walls](https://github.com/Srajan-21/DSA_with_ME/tree/master/2742-painting-the-walls) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0013-roman-to-integer](https://github.com/Srajan-21/DSA_with_ME/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/Srajan-21/DSA_with_ME/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0070-climbing-stairs) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Srajan-21/DSA_with_ME/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Srajan-21/DSA_with_ME/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -261,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Number Theory
 |  |
 | ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Srajan-21/DSA_with_ME/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Srajan-21/DSA_with_ME/tree/master/3658-gcd-of-odd-and-even-sums) |
