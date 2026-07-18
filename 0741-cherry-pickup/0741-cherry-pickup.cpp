@@ -2,18 +2,21 @@ class Solution {
 public:
 
     // TC - O(n^3)
-    // SC - O(n^3)
+    // SC - O(n^2)
     int solveTABULATION(vector<vector<int>>& grid)
     {
 
         int n = grid.size();
-        vector<vector<vector<int>>> dp(2* n - 1 , vector<vector<int>>(n , vector<int>(n , -1e9)));
-
-        // Base case
-        dp[2 * n - 2][n - 1][n - 1] = grid[n-1][n-1];
+        vector<vector<int>> next(n, vector<int>(n, -1e9));
+        vector<vector<int>> curr(n, vector<int>(n, -1e9));
+                
+        next[n - 1][n - 1] = grid[n-1][n-1];
 
         for(int step = 2 * n - 3 ; step >= 0 ; step--)
         {
+            for (auto &row : curr)
+                fill(row.begin(), row.end(), -1e9);
+
             for (int r1 = max(0, step - (n - 1)) ; r1 <= min(n - 1, step) ; r1++)
             {
                 int c1 = step - r1;
@@ -35,26 +38,27 @@ public:
                     int RR = -1e9;
 
                     if (r1 + 1 < n && r2 + 1 < n)
-                        DD = dp[step + 1][r1 + 1][r2 + 1];
+                        DD = next[r1 + 1][r2 + 1];
 
                     if (r1 + 1 < n && c2 + 1 < n)
-                        DR = dp[step + 1][r1 + 1][r2];
+                        DR = next[r1 + 1][r2];
 
                     if (c1 + 1 < n && r2 + 1 < n)
-                        RD = dp[step + 1][r1][r2 + 1];
+                        RD = next[r1][r2 + 1];
 
                     if (c1 + 1 < n && c2 + 1 < n)
-                        RR = dp[step + 1][r1][r2];
+                        RR = next[r1][r2];
 
                     int best = max({DD, DR, RD, RR});
 
                     if(best != -1e9)
-                        dp[step][r1][r2] = current + best;
+                        curr[r1][r2] = current + best;
                 }
             }
+            swap(next, curr);
         }
 
-        return max(0 , dp[0][0][0]);     
+        return max(0 , next[0][0]);     
     }
 
     // TC - O(n^3)
