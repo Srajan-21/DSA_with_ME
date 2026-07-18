@@ -5,9 +5,9 @@ public:
         int small = INT_MAX;
         int large = INT_MIN;
 
-        for(int i = 0 ; i < nums.size() ; i++){
-            small = min(small , nums[i]);
-            large = max(large , nums[i]);
+        for(auto& i : nums){
+            small = min(small , i);
+            large = max(large , i);
         }
 
         return gcd(small , large);
