@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Simulation
 |  |
 | ------- |
+| [1260-shift-2d-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/1260-shift-2d-grid) |
 | [2390-removing-stars-from-a-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2390-removing-stars-from-a-string) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/2553-separate-the-digits-in-an-array) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
 | [0931-minimum-falling-path-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0931-minimum-falling-path-sum) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
+| [1260-shift-2d-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/Srajan-21/DSA_with_ME/tree/master/1288-remove-covered-intervals) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/Srajan-21/DSA_with_ME/tree/master/1301-number-of-paths-with-max-score) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0064-minimum-path-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0064-minimum-path-sum) |
 | [0741-cherry-pickup](https://github.com/Srajan-21/DSA_with_ME/tree/master/0741-cherry-pickup) |
 | [0931-minimum-falling-path-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0931-minimum-falling-path-sum) |
+| [1260-shift-2d-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/1260-shift-2d-grid) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/Srajan-21/DSA_with_ME/tree/master/1301-number-of-paths-with-max-score) |
 | [1463-cherry-pickup-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1463-cherry-pickup-ii) |
