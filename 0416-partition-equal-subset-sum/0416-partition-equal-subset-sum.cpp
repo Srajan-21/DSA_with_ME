@@ -72,6 +72,35 @@ public:
         return dp[n - 1][target];
     }
 
+    // Time Complexity: O(n * (totSum / 2)) ≈ O(n * totSum)
+    // Space Complexity: O(totSum / 2) ≈ O(totSum)
+    int solveSPACE(vector<int>& nums , int target)
+    {
+        int n = nums.size();
+        vector<bool> prev(target + 1 , 0) , curr(target + 1 , 0);
+        prev[0] = curr[0] = true;
+        
+        if(nums[0] <= target)
+            prev[nums[0]] = true;
+
+        for(int i = 1 ; i < n ; i++)
+        {
+            for(int j = 1 ; j <= target ; j++)
+            {
+                bool notTake = prev[j];
+                bool take = false;
+                if(nums[i] <= j)
+                {
+                    take = prev[j - nums[i]];
+                }
+                curr[j] = take || notTake;
+            }
+            prev = curr;
+        }
+
+        return prev[target];
+    }
+
     bool canPartition(vector<int>& nums) {
 
         int n = nums.size();
@@ -81,7 +110,8 @@ public:
 
         if(totSum % 2)return false;
 
-        return solveTABULATION(nums , totSum / 2);
+        return solveSPACE(nums , totSum / 2);
+        // return solveTABULATION(nums , totSum / 2);
 
         // vector<vector<int>> dp(n , vector<int>(totSum + 1 , -1));
         // return solveMEMOIZATION(nums , n - 1 , totSum / 2 , dp);
