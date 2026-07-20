@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0238-product-of-array-except-self](https://github.com/Srajan-21/DSA_with_ME/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/Srajan-21/DSA_with_ME/tree/master/0322-coin-change) |
 | [0377-combination-sum-iv](https://github.com/Srajan-21/DSA_with_ME/tree/master/0377-combination-sum-iv) |
+| [0416-partition-equal-subset-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0494-target-sum) |
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
 | [0741-cherry-pickup](https://github.com/Srajan-21/DSA_with_ME/tree/master/0741-cherry-pickup) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0213-house-robber-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/Srajan-21/DSA_with_ME/tree/master/0322-coin-change) |
 | [0377-combination-sum-iv](https://github.com/Srajan-21/DSA_with_ME/tree/master/0377-combination-sum-iv) |
+| [0416-partition-equal-subset-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0494-target-sum) |
 | [0741-cherry-pickup](https://github.com/Srajan-21/DSA_with_ME/tree/master/0741-cherry-pickup) |
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
