@@ -2,6 +2,39 @@ class Solution {
 public:
 
     // TC - O(n×2001) ≈ O(n) (or O(n×sum))
+    // SC - O(2001) ≈ O(sum)
+    int solveSPACE(vector<int>& nums, int target)
+    {
+        int n = nums.size();
+        int OFFSET = 1000;
+        vector<int> next(2001 , 0);
+        next[OFFSET] = 1;
+
+        for(int i = n - 1 ; i >= 0 ; i--)
+        {
+            vector<int> curr(2001 , 0);
+            for(int j = -1000 ; j <= 1000 ; j++)
+            {
+                int ways = 0;
+
+                if(j - nums[i] >= -1000 && j - nums[i] <= 1000)
+                    ways += next[j - nums[i] + OFFSET];
+
+                if(j + nums[i] >= -1000 && j + nums[i] <= 1000)
+                    ways += next[j + nums[i] + OFFSET];
+            
+                curr[j + OFFSET] = ways;
+            }
+            next = curr;
+        }
+
+        if(target < -1000 || target > 1000)
+        return 0;
+        
+        return next[target + OFFSET];
+    }
+
+    // TC - O(n×2001) ≈ O(n) (or O(n×sum))
     // SC - O(n×2001) ≈ O(n×sum)
     int solveTABULATION(vector<int>& nums, int target)
     {
@@ -68,8 +101,9 @@ public:
     int findTargetSumWays(vector<int>& nums, int target) {
         int n = nums.size();
         vector<vector<int>>dp (n + 1 , vector<int>(2001 , -1));
+        return solveSPACE(nums , target);
         // return solveMEMOIZATION(nums , target , 0 , dp);
-        return solveTABULATION(nums , target);
+        // return solveTABULATION(nums , target);
         // return solveRECURSION(nums , target , 0);
     }
 };
