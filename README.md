@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2390-removing-stars-from-a-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2390-removing-stars-from-a-string) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Stack
 |  |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [1291-sequential-digits](https://github.com/Srajan-21/DSA_with_ME/tree/master/1291-sequential-digits) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Srajan-21/DSA_with_ME/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3499-maximize-active-section-with-trade-i) |
 ## Sorting
 |  |
 | ------- |
