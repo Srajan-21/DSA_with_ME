@@ -6,7 +6,10 @@ public:
         if(n < 3)
             return n;
 
-        return 1 << (int) log2(n) + 1;
+        int ans = 1;
+        while(ans <= n)
+            ans <<= 1;
 
+        return ans;
     }
 };
