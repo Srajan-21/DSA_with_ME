@@ -1,8 +1,8 @@
 SELECT 
     unique_id , name
 FROM 
-    Employees as e
+    Employees
 LEFT JOIN
-    EmployeeUNI as eu
+    EmployeeUNI
 ON 
-    e.id = eu.id;
+    Employees.id = EmployeeUNI.id;
