@@ -311,4 +311,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/Srajan-21/DSA_with_ME/tree/master/0316-remove-duplicate-letters) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+## Database
+|  |
+| ------- |
+| [1757-recyclable-and-low-fat-products](https://github.com/Srajan-21/DSA_with_ME/tree/master/1757-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
