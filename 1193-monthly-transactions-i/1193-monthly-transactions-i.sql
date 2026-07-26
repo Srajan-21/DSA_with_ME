@@ -11,8 +11,8 @@ SELECT
         SUM(t.amount)
     ) AS trans_total_amount,
     (
-        SUM(CASE WHEN t.state = 'approved' THEN t.amount ELSE 0 END)
-        -- SUM(IF(t.state = 'approved' , t.amount , 0))
+        -- SUM(CASE WHEN t.state = 'approved' THEN t.amount ELSE 0 END)
+        SUM(IF(t.state = 'approved' , t.amount , 0))
         -- SUM(t.amount WHERE t.state = 'approved') THIS IS NOT VALID SYNTAX
     ) AS approved_total_amount
 FROM 
