@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0377-combination-sum-iv](https://github.com/Srajan-21/DSA_with_ME/tree/master/0377-combination-sum-iv) |
 | [0416-partition-equal-subset-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0494-target-sum) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Srajan-21/DSA_with_ME/tree/master/0628-maximum-product-of-three-numbers) |
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
 | [0741-cherry-pickup](https://github.com/Srajan-21/DSA_with_ME/tree/master/0741-cherry-pickup) |
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0013-roman-to-integer](https://github.com/Srajan-21/DSA_with_ME/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/Srajan-21/DSA_with_ME/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0070-climbing-stairs) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Srajan-21/DSA_with_ME/tree/master/0628-maximum-product-of-three-numbers) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Srajan-21/DSA_with_ME/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Sorting
 |  |
 | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/Srajan-21/DSA_with_ME/tree/master/0628-maximum-product-of-three-numbers) |
 | [1288-remove-covered-intervals](https://github.com/Srajan-21/DSA_with_ME/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1331-rank-transform-of-an-array) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Srajan-21/DSA_with_ME/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
