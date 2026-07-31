@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Srajan-21/DSA_with_ME/tree/master/0013-roman-to-integer) |
+| [0125-valid-palindrome](https://github.com/Srajan-21/DSA_with_ME/tree/master/0125-valid-palindrome) |
 | [0316-remove-duplicate-letters](https://github.com/Srajan-21/DSA_with_ME/tree/master/0316-remove-duplicate-letters) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/Srajan-21/DSA_with_ME/tree/master/0125-valid-palindrome) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Srajan-21/DSA_with_ME/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/3867-sum-of-gcd-of-formed-pairs) |
