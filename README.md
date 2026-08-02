@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
 | [0741-cherry-pickup](https://github.com/Srajan-21/DSA_with_ME/tree/master/0741-cherry-pickup) |
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
+| [0877-stone-game](https://github.com/Srajan-21/DSA_with_ME/tree/master/0877-stone-game) |
 | [0931-minimum-falling-path-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0931-minimum-falling-path-sum) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1260-shift-2d-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/1260-shift-2d-grid) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0494-target-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0494-target-sum) |
 | [0741-cherry-pickup](https://github.com/Srajan-21/DSA_with_ME/tree/master/0741-cherry-pickup) |
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
+| [0877-stone-game](https://github.com/Srajan-21/DSA_with_ME/tree/master/0877-stone-game) |
 | [0931-minimum-falling-path-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0931-minimum-falling-path-sum) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/Srajan-21/DSA_with_ME/tree/master/1301-number-of-paths-with-max-score) |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0070-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0070-climbing-stairs) |
 | [0486-predict-the-winner](https://github.com/Srajan-21/DSA_with_ME/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Srajan-21/DSA_with_ME/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/Srajan-21/DSA_with_ME/tree/master/0877-stone-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
@@ -417,4 +420,5 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Srajan-21/DSA_with_ME/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Srajan-21/DSA_with_ME/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
