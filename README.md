@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Srajan-21/DSA_with_ME/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Srajan-21/DSA_with_ME/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Srajan-21/DSA_with_ME/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Hash Table
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1463-cherry-pickup-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1463-cherry-pickup-ii) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Srajan-21/DSA_with_ME/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2742-painting-the-walls](https://github.com/Srajan-21/DSA_with_ME/tree/master/2742-painting-the-walls) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Srajan-21/DSA_with_ME/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Srajan-21/DSA_with_ME/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Srajan-21/DSA_with_ME/tree/master/3620-network-recovery-pathways) |
@@ -323,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0125-valid-palindrome](https://github.com/Srajan-21/DSA_with_ME/tree/master/0125-valid-palindrome) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Srajan-21/DSA_with_ME/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Srajan-21/DSA_with_ME/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Bit Manipulation
