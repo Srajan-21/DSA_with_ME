@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Srajan-21/DSA_with_ME/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/Srajan-21/DSA_with_ME/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2390-removing-stars-from-a-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2390-removing-stars-from-a-string) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Srajan-21/DSA_with_ME/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Srajan-21/DSA_with_ME/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/Srajan-21/DSA_with_ME/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/2553-separate-the-digits-in-an-array) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
 | [2742-painting-the-walls](https://github.com/Srajan-21/DSA_with_ME/tree/master/2742-painting-the-walls) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Segment Tree
 |  |
 | ------- |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/Srajan-21/DSA_with_ME/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -437,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Srajan-21/DSA_with_ME/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/Srajan-21/DSA_with_ME/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Bitmask
 |  |
 | ------- |
