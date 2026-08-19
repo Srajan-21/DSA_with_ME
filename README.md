@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1289-minimum-falling-path-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/Srajan-21/DSA_with_ME/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1331-rank-transform-of-an-array) |
+| [1386-cinema-seat-allocation](https://github.com/Srajan-21/DSA_with_ME/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1406-stone-game-iii) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Srajan-21/DSA_with_ME/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1463-cherry-pickup-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1463-cherry-pickup-ii) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0316-remove-duplicate-letters](https://github.com/Srajan-21/DSA_with_ME/tree/master/0316-remove-duplicate-letters) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1386-cinema-seat-allocation](https://github.com/Srajan-21/DSA_with_ME/tree/master/1386-cinema-seat-allocation) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Srajan-21/DSA_with_ME/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2029-stone-game-ix](https://github.com/Srajan-21/DSA_with_ME/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0013-roman-to-integer](https://github.com/Srajan-21/DSA_with_ME/tree/master/0013-roman-to-integer) |
 | [1331-rank-transform-of-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1386-cinema-seat-allocation](https://github.com/Srajan-21/DSA_with_ME/tree/master/1386-cinema-seat-allocation) |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Srajan-21/DSA_with_ME/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -360,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Bit Manipulation
 |  |
 | ------- |
+| [1386-cinema-seat-allocation](https://github.com/Srajan-21/DSA_with_ME/tree/master/1386-cinema-seat-allocation) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Srajan-21/DSA_with_ME/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3514-number-of-unique-xor-triplets-ii) |
