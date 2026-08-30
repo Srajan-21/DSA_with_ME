@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/Srajan-21/DSA_with_ME/tree/master/2029-stone-game-ix) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Srajan-21/DSA_with_ME/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Srajan-21/DSA_with_ME/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/2553-separate-the-digits-in-an-array) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Srajan-21/DSA_with_ME/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1927-sum-game](https://github.com/Srajan-21/DSA_with_ME/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/Srajan-21/DSA_with_ME/tree/master/2029-stone-game-ix) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Srajan-21/DSA_with_ME/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Srajan-21/DSA_with_ME/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
