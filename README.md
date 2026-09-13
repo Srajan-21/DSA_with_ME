@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
 | [0741-cherry-pickup](https://github.com/Srajan-21/DSA_with_ME/tree/master/0741-cherry-pickup) |
 | [0746-min-cost-climbing-stairs](https://github.com/Srajan-21/DSA_with_ME/tree/master/0746-min-cost-climbing-stairs) |
+| [0835-image-overlap](https://github.com/Srajan-21/DSA_with_ME/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/Srajan-21/DSA_with_ME/tree/master/0877-stone-game) |
 | [0931-minimum-falling-path-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0931-minimum-falling-path-sum) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
@@ -369,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0063-unique-paths-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0064-minimum-path-sum) |
 | [0741-cherry-pickup](https://github.com/Srajan-21/DSA_with_ME/tree/master/0741-cherry-pickup) |
+| [0835-image-overlap](https://github.com/Srajan-21/DSA_with_ME/tree/master/0835-image-overlap) |
 | [0931-minimum-falling-path-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/0931-minimum-falling-path-sum) |
 | [1260-shift-2d-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/1260-shift-2d-grid) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1289-minimum-falling-path-sum-ii) |
