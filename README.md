@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Srajan-21/DSA_with_ME/tree/master/0238-product-of-array-except-self) |
 | [1140-stone-game-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1140-stone-game-ii) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Srajan-21/DSA_with_ME/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1872-stone-game-viii) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Srajan-21/DSA_with_ME/tree/master/2559-count-vowel-strings-in-ranges) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1463-cherry-pickup-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1463-cherry-pickup-ii) |
 | [1510-stone-game-iv](https://github.com/Srajan-21/DSA_with_ME/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Srajan-21/DSA_with_ME/tree/master/1563-stone-game-v) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Srajan-21/DSA_with_ME/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1872-stone-game-viii) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Srajan-21/DSA_with_ME/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Srajan-21/DSA_with_ME/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -235,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1406-stone-game-iii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Srajan-21/DSA_with_ME/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Srajan-21/DSA_with_ME/tree/master/1563-stone-game-v) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Srajan-21/DSA_with_ME/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/Srajan-21/DSA_with_ME/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -434,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Srajan-21/DSA_with_ME/tree/master/0062-unique-paths) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Srajan-21/DSA_with_ME/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Srajan-21/DSA_with_ME/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Srajan-21/DSA_with_ME/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/3518-smallest-palindromic-rearrangement-ii) |
