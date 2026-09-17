@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Srajan-21/DSA_with_ME/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1463-cherry-pickup-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1463-cherry-pickup-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1563-stone-game-v](https://github.com/Srajan-21/DSA_with_ME/tree/master/1563-stone-game-v) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Srajan-21/DSA_with_ME/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1872-stone-game-viii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1872-stone-game-viii) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1331-rank-transform-of-an-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1386-cinema-seat-allocation](https://github.com/Srajan-21/DSA_with_ME/tree/master/1386-cinema-seat-allocation) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2287-rearrange-characters-to-make-target-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Srajan-21/DSA_with_ME/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1301-number-of-paths-with-max-score](https://github.com/Srajan-21/DSA_with_ME/tree/master/1301-number-of-paths-with-max-score) |
 | [1406-stone-game-iii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1406-stone-game-iii) |
 | [1463-cherry-pickup-ii](https://github.com/Srajan-21/DSA_with_ME/tree/master/1463-cherry-pickup-ii) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1510-stone-game-iv](https://github.com/Srajan-21/DSA_with_ME/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Srajan-21/DSA_with_ME/tree/master/1563-stone-game-v) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Srajan-21/DSA_with_ME/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
@@ -345,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Srajan-21/DSA_with_ME/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Srajan-21/DSA_with_ME/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Srajan-21/DSA_with_ME/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Srajan-21/DSA_with_ME/tree/master/3090-maximum-length-substring-with-two-occurrences) |
@@ -355,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Srajan-21/DSA_with_ME/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Srajan-21/DSA_with_ME/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/Srajan-21/DSA_with_ME/tree/master/0704-binary-search) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Srajan-21/DSA_with_ME/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Srajan-21/DSA_with_ME/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Srajan-21/DSA_with_ME/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Srajan-21/DSA_with_ME/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
